@@ -7,6 +7,7 @@
 
 # importing libraries
 import pygame
+import turtle
 import random
 
 snake_speed = 12
@@ -17,10 +18,15 @@ Screeny = 580
 
 # defining colors
 blue = pygame.Color(0, 0, 0)
+# background
 red = pygame.Color(255, 255, 255)
+# Score and food
 white = pygame.Color(255, 0, 0)
+# outline of game
 green = pygame.Color(0, 255, 0) 
+# end score text color
 black = pygame.Color(0, 0, 255)
+#snake
 
 # Initialising pygame
 pygame.init()
